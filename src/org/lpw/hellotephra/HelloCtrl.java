@@ -62,6 +62,8 @@ public class HelloCtrl {
 	
    public Object hello() {
     	
+		
+		
     	String beansName[] = bf.getBeanNames();
     	for (int i = 0; i < beansName.length; i++) {
 			p(beansName[i]);
