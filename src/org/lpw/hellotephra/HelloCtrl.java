@@ -66,6 +66,7 @@ public class HelloCtrl {
     	for (int i = 0; i < beansName.length; i++) {
 			p(beansName[i]);
 		}
+    	
     	UserModel u = new UserModel();
     	u.setName(request.get("name"));
     	u.setPassword("password");
